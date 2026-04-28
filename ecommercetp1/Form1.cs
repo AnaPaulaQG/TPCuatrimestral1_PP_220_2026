@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace ecommercetp1
 {
     public partial class Form1 : Form
@@ -9,10 +12,6 @@ namespace ecommercetp1
 
         private void usuariosMI_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-
-=======
->>>>>>> ec7010f (Modulo tiendas funcionando y conectado al menu)
             foreach (Form hijo in this.MdiChildren)
             {
                 if (hijo is UsuariosForm)
@@ -25,12 +24,6 @@ namespace ecommercetp1
             UsuariosForm form = new UsuariosForm();
             form.MdiParent = this;
             form.Show();
-<<<<<<< HEAD
-
-        }
-    }
-}
-=======
         }
 
         private void tiendasMI_Click(object sender, EventArgs e)
@@ -48,6 +41,5 @@ namespace ecommercetp1
             form.MdiParent = this;
             form.Show();
         }
-    } // <--- Esta llave cierra la Clase
-} // <--- Esta llave cierra el Namespace
->>>>>>> ec7010f (Modulo tiendas funcionando y conectado al menu)
+    }
+}

@@ -2,15 +2,8 @@
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             menuStrip1 = new MenuStrip();
@@ -58,10 +47,7 @@
             tiendasMI.Name = "tiendasMI";
             tiendasMI.Size = new Size(59, 20);
             tiendasMI.Text = "Tiendas";
-<<<<<<< HEAD
-=======
-            this.tiendasMI.Click += new System.EventHandler(this.tiendasMI_Click);
->>>>>>> ec7010f (Modulo tiendas funcionando y conectado al menu)
+            tiendasMI.Click += new EventHandler(tiendasMI_Click);
             // 
             // usuariosMI
             // 
