@@ -58,6 +58,10 @@
             tiendasMI.Name = "tiendasMI";
             tiendasMI.Size = new Size(59, 20);
             tiendasMI.Text = "Tiendas";
+<<<<<<< HEAD
+=======
+            this.tiendasMI.Click += new System.EventHandler(this.tiendasMI_Click);
+>>>>>>> ec7010f (Modulo tiendas funcionando y conectado al menu)
             // 
             // usuariosMI
             // 
